@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Embed Test</title>
+</head>
+<body>
+    <h2>Testing YouTube Video: eqg0STvbp1g</h2>
+    
+    <h3>Method 1: Standard Embed</h3>
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/eqg0STvbp1g?autoplay=0&controls=1&rel=0&modestbranding=1&fs=1&playsinline=1" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+    </iframe>
+    
+    <h3>Method 2: No-Cookie Embed</h3>
+    <iframe width="560" height="315" 
+            src="https://www.youtube-nocookie.com/embed/eqg0STvbp1g?autoplay=0&controls=1&rel=0&modestbranding=1&fs=1&playsinline=1" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+    </iframe>
+    
+    <h3>Original URL</h3>
+    <p><a href="https://youtu.be/eqg0STvbp1g" target="_blank">https://youtu.be/eqg0STvbp1g</a></p>
+    
+    <script>
+        // Check if iframes load successfully
+        document.addEventListener('DOMContentLoaded', function() {
+            const iframes = document.querySelectorAll('iframe');
+            iframes.forEach((iframe, index) => {
+                iframe.onload = function() {
+                    console.log(`✅ Iframe ${index + 1} loaded successfully`);
+                };
+                iframe.onerror = function() {
+                    console.log(`❌ Iframe ${index + 1} failed to load`);
+                };
+            });
+        });
+    </script>
+</body>
+</html>
