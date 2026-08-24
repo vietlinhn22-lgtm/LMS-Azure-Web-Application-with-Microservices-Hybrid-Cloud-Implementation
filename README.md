@@ -1,33 +1,6 @@
-# LMS Microservices
-
-Hệ thống Quản lý Học tập (LMS) với kiến trúc Microservices.
-
-## Tổng quan
-
-Hệ thống LMS bao gồm các microservices sau:
-
-- **API Gateway**: Điểm truy cập trung tâm cho tất cả các services
-- **Auth Service**: Xác thực và phân quyền người dùng
-- **Content Service**: Quản lý nội dung học tập
-- **Assignment Service**: Quản lý bài tập và đánh giá
-- **Frontend Admin**: Giao diện cho quản trị viên
-- **Frontend Teacher**: Giao diện cho giáo viên
-- **Frontend Student**: Giao diện cho học viên
-
-## Triển khai
-
-### Triển khai trên Docker
-
-Xem hướng dẫn triển khai chi tiết:
-- [Hướng dẫn triển khai trên RedHat](REDHAT_DEPLOYMENT_GUIDE.md)
-- [Hướng dẫn triển khai nhanh](README-DEPLOYMENT.md)
-
-### Khắc phục sự cố
-
-- [Khắc phục lỗi build frontend](FRONTEND_BUILD_TROUBLESHOOTING.md)
-- [Khắc phục lỗi backend trên Docker](DOCKER_BACKEND_TROUBLESHOOTING.md)
-
-## Phát triển
-
-Để phát triển và chạy ứng dụng cục bộ, vui lòng tham khảo:
-- [Hướng dẫn chạy Backend](lms_micro_services/BACKEND_STARTUP_GUIDE.md)
+☁️ LMS Marina: Triển khai Web App Micro-services & Bảo mật trên Azure Hybrid Cloud
+📌 Tổng quan Dự ánDự án này là giải pháp chuyển đổi số toàn diện nhằm hiện đại hóa hệ thống E-learning (LMS) cho công ty Marina, dịch chuyển từ môi trường On-premise nguyên khối sang kiến trúc Microservices trên nền tảng Microsoft Azure.
+Mục tiêu cốt lõi của dự án là giải quyết các vấn đề về tắc nghẽn hiệu suất, tối ưu hóa chi phí vận hành và xây dựng một hệ thống có độ sẵn sàng cao (High Availability) đạt 99.95% SLA. Dự án cũng tích hợp sâu các tiêu chuẩn bảo mật Enterprise-grade với mô hình Zero Trust, đảm bảo khả năng mở rộng linh hoạt (Auto-scaling) và phục hồi sau thảm họa (Disaster Recovery) với RPO < 15 phút.  
+🏗️ Kiến trúc Hybrid CloudHạ tầng vận hành theo mô hình Hybrid Cloud kết hợp giữa mạng nội bộ (On-premise) và đám mây (Azure), được phân đoạn thành các vùng chuyên biệt thông qua cấu trúc Hub-Spoke:  Vùng Azure Cloud (Spoke - Production): Lưu trữ Frontend (React SPA) trên VM Scale Sets và Backend Microservices (Auth, Content, Assignment) trên Azure Kubernetes Service (AKS). Dữ liệu được lưu trữ an toàn với Azure Database for PostgreSQL, Cosmos DB (MongoDB API) và Blob Storage.  Vùng Kết nối & DMZ (Hub): Đóng vai trò kiểm soát lưu lượng trung tâm, bao gồm Azure Firewall Premium, Application Gateway tích hợp WAF v2, và Azure Bastion để truy cập quản trị an toàn.  Vùng On-premise (Lõi nội bộ): Chứa hệ thống Active Directory đồng bộ định danh và thiết bị lưu trữ NAS Synology để backup đồng bộ lên Azure File Share.  Vùng SIEM/SOC (Giám sát): Trung tâm giám sát và phản ứng sử dụng Azure Sentinel, Azure Monitor và Log Analytics Workspace để thu thập và phân tích log toàn hệ thống.  
+✨ Triển khai Bảo mật Trọng tâm (Blue Team & DevSecOps)Bảo mật Cloud & Ứng dụng WebBảo vệ Đa lớp (WAF & Firewall): Triển khai Application Gateway tích hợp Web Application Firewall (WAF v2) kết hợp Azure Firewall Premium để phân tích và chặn các luồng traffic độc hại từ Inbound đến Outbound.  Bảo vệ chống DDoS: Tích hợp Azure DDoS Protection Standard để bảo vệ các tài nguyên mạng (Virtual Network) khỏi các cuộc tấn công từ chối dịch vụ.  Bảo mật Mạng Nội bộ (Private Link): Cấu hình Private Endpoints (Private DNS Zones) cho toàn bộ Database, Key Vault và Storage, từ chối hoàn toàn các truy cập từ Public Internet.  Định danh & Quản lý Truy cập (Zero Trust)Quản trị Định danh Đám mây: Triển khai Microsoft Entra ID (Premium P2) tích hợp SSO (Single Sign-On) cho hệ thống Microsoft 365, bắt buộc Xác thực đa yếu tố (MFA) và áp dụng Conditional Access (Truy cập có điều kiện).  Kiểm soát Phân quyền (RBAC): Phân chia vai trò rõ ràng (LMS Admin, Teacher, DevOps...) để giới hạn đặc quyền trên từng tài nguyên Azure.  Truy cập An toàn không Public IP: Bắt buộc sử dụng Azure Bastion để quản trị VM (SSH/RDP) trên trình duyệt, không mở port public ra bên ngoài.  SOC Thông minh & Vận hành Tự độngSIEM Tập trung: Sử dụng Log Analytics Workspace kết hợp Azure Sentinel để tổng hợp và tương quan các log từ NSG Flow Logs, Activity Logs, App Logs và Database Audit Logs.  Quản lý Bí mật (Secrets Management): Sử dụng Azure Key Vault với cấu hình HSM để lưu trữ an toàn các chuỗi kết nối Database, API Keys, JWT Secret Key và chứng chỉ TLS/SSL, tích hợp Managed Identity để VM tự động truy cập. Tự động hóa bằng Azure Logic Apps & Service Bus: Xây dựng quy trình tự động hóa các tác vụ cảnh báo và giao tiếp bất đồng bộ giữa các Microservices thông qua các Queue/Topic bảo mật.  Phục hồi sau thảm họa (DR) & Hạ tầng dưới dạng Code (IaC)Triển khai Tự động hóa 100%: Toàn bộ hạ tầng mạng, bảo mật, và tài nguyên đám mây được khởi tạo và quản lý phiên bản qua mã nguồn Terraform (Infrastructure as Code).  Disaster Recovery (Site Recovery): Thiết lập cơ chế failover sang vùng dự phòng (Secondary Region) bằng Azure Site Recovery, kết hợp Azure Backup để sao lưu VM và Database định kỳ tự động.  Kiểm soát Tuân thủ (Governance): Triển khai Azure Policy và Azure Blueprint để ép buộc các chính sách mã hóa (encryption) chuẩn quân sự và audit toàn bộ hệ thống liên tục.  
+🔎 Giám sát số (Cloud Forensics & Monitoring)Quy trình giám sát hệ thống phân tán được triển khai bằng các công cụ chuyên dụng của Azure:Điều tra Hiệu suất & Lỗi: Sử dụng Application Insights (APM) giám sát trực tiếp vào FastAPI và React để theo dõi API Response Time và Error Rate.  Phân tích Log chuyên sâu (KQL): Ứng dụng ngôn ngữ truy vấn Kusto (KQL) trên Log Analytics để rà soát các lượt đăng nhập thất bại, hiệu suất truy vấn Database (Slow queries) và cảnh báo chi phí bất thường (Cost Management Alerts).  🛠️ Công nghệ sử dụngCloud & Hạ tầng: Microsoft Azure, Terraform, Azure Kubernetes Service (AKS), Virtual Machine Scale Sets, VPN Gateway, Azure Front Door.  Network & Security: Azure Firewall Premium, Application Gateway WAF v2, Azure Defender, Azure Key Vault, Microsoft Entra ID.  Database & Storage: PostgreSQL Flexible Server, Cosmos DB (MongoDB), Blob Storage, File Share, NAS Synology.  SOC & Giám sát: Azure Sentinel, Log Analytics, Azure Monitor, Network Watcher.  Ứng dụng & Automation: Docker, FastAPI (Python), React (SPA), Traefik, Azure Logic Apps, Service Bus.  👨‍💻 Nhóm 4 (Tác giả)Nguyễn Quang Huy (JK-ENR-HA-11646) - Trưởng Kỹ thuật, Architecture, IaC, Kubernetes (AKS) & Compute.  Nguyễn Việt Linh (JK-ENR-HA-11617) - Thiết kế Hybrid Cloud, Networking, Entra ID & Bảo mật Nâng cao (Firewall, Sentinel, Key Vault).  Phạm Minh Hoàng (JK-ENR-HA-11622) - Kỹ sư Hybrid Cloud, Networking, Active Directory & Bảo mật.  Lê Phát Hoàng Phúc (JK-ENR-HA-11621) - Kỹ sư Database, Storage, NAS Synology, HA/DR (Backup & Site Recovery).  Quách Thành Tân (JK-ENR-HA-11618) - Kỹ sư Monitoring (Monitor/Log Analytics), Automation (Logic Apps, Service Bus) & Mindmap.  📸 DEMO Triển khai & Vận hànhCấu hình Terraform & Triển khai Azure Networking (VNet, Peering, Firewall).  Tích hợp Hybrid Identity (On-premise AD sang Entra ID) & Quản lý Truy cập.  Triển khai Microservices Web App trên môi trường AKS & VM Scale Sets.  Kiểm thử Cân bằng tải Application Gateway WAF & Mô phỏng bảo mật chặn traffic.  Diễn tập Phục hồi thảm họa (Disaster Recovery) với Azure Site Recovery & Backup.  📸 REPORT Báo cáo SOC & Quản trị📄 Báo cáo: Giám sát toàn diện Hệ thống Microservices với Azure Monitor & Application Insights.  📄 Báo cáo: Ứng phó sự cố bảo mật tự động bằng KQL & Azure Sentinel.  📄 Báo cáo: Chiến lược định tuyến, khóa tài nguyên và ép buộc Policy trên Blueprint.  📄 Báo cáo: Phân tích Tối ưu hóa & Quản lý Chi phí Hàng tháng (Azure Cost Management)
