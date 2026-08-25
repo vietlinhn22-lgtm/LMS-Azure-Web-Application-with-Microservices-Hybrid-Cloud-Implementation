@@ -81,10 +81,5 @@ https://drive.google.com/file/d/1YoKLJepEZv-j4wdso5ye0tGHJzuows3d/view?usp=drive
 https://drive.google.com/file/d/1okyrOvy8maqOUJrgn74J5v3a2nD-pXq9/view?usp=drive_link
 https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
 https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
+
 https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link
-
-### 3. 📄 Báo cáo: Áp dụng Chính sách Quản trị (Azure Policy & Blueprint)
-*(Liên kết tài liệu)*
-
-### 4. 📄 Báo cáo: Phân tích Tối ưu hóa & Quản lý Chi phí Hàng tháng
-*(Liên kết tài liệu)*
