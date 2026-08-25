@@ -60,30 +60,28 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 ## 📸 DEMO Triển khai & Vận hành
 
 ### 1. Kiến trúc Lai & Định danh (Hybrid Identity):
-* [▶️ Xem Video: Cấu hình On-premise](https://drive.google.com/file/d/10ZqZr0sFPMeQLRa-msmlLrOJWcxHXc5l/view?usp=drive_link)
-* [▶️ Xem Video: Cấu hình EntraID và Share Subcription](https://drive.google.com/file/d/1JhRBV_zWhuhfs7sruMaO0XCIcNS68xqc/view?usp=drive_link)
-* [▶️ Xem Video: Cấu hình ADConnect cho On-premise](https://drive.google.com/file/d/1nPfff5_lpIp-bBrU45ef6H5-nQKUfLHq/view?usp=drive_link)
-* [▶️ Xem Video: Cấu hình Azure Arc cho Window Server 2022](https://drive.google.com/file/d/1AhxS-0j70D5G-Rd6itvxzp5uMA4tRQ-K/view?usp=drive_link)
+* [▶️ Cấu hình On-premise](https://drive.google.com/file/d/10ZqZr0sFPMeQLRa-msmlLrOJWcxHXc5l/view?usp=drive_link)
+* [▶️ Cấu hình EntraID và Share Subcription](https://drive.google.com/file/d/1JhRBV_zWhuhfs7sruMaO0XCIcNS68xqc/view?usp=drive_link)
+* [▶️ Cấu hình ADConnect cho On-premise](https://drive.google.com/file/d/1nPfff5_lpIp-bBrU45ef6H5-nQKUfLHq/view?usp=drive_link)
+* [▶️ Cấu hình Azure Arc cho Window Server 2022](https://drive.google.com/file/d/1AhxS-0j70D5G-Rd6itvxzp5uMA4tRQ-K/view?usp=drive_link)
 
 ### 2. Tự động hóa Hạ tầng (IaC):
-https://drive.google.com/file/d/1JOkqXptZtbthLU3S70koUaqPnD5HnN5P/view?usp=drive_link
-https://drive.google.com/file/d/1MNBmyB9IjuC_W2KIy5-FBt2wAp59_g3U/view?usp=drive_link
+* [▶️ Đẩy Web app on-premise bằng code Azure PowerShell](https://drive.google.com/file/d/1JOkqXptZtbthLU3S70koUaqPnD5HnN5P/view?usp=drive_link)
+* [▶️ Deploy Project with Terraform Code](https://drive.google.com/file/d/1MNBmyB9IjuC_W2KIy5-FBt2wAp59_g3U/view?usp=drive_link)
 
 ### 3. Mạng & Bảo mật (Networking & Security):
-https://drive.google.com/file/d/1aB-vDksp57wfDit_a1qYRrGWzgYikjk1/view?usp=drive_link
-https://drive.google.com/file/d/1gafP1bmujVLnQmoFFSveRi98keMX0U4C/view?usp=drive_link
+* [▶️ Cấu hình VPN Point-to-Site](https://drive.google.com/file/d/1aB-vDksp57wfDit_a1qYRrGWzgYikjk1/view?usp=drive_link)
+* [▶️ Cấu hình Azure Firewall](https://drive.google.com/file/d/1gafP1bmujVLnQmoFFSveRi98keMX0U4C/view?usp=drive_link)
 
 ### 4. SOC & Giám sát Hệ thống (Monitoring):
-https://drive.google.com/file/d/1qBK0FUfqfiZ6iIMcPINQ3fk8tzfGc04y/view?usp=drive_link
-https://drive.google.com/file/d/1YoKLJepEZv-j4wdso5ye0tGHJzuows3d/view?usp=drive_link
+* [▶️ Azure Monitor](https://drive.google.com/file/d/1qBK0FUfqfiZ6iIMcPINQ3fk8tzfGc04y/view?usp=drive_link)
+* [▶️ Azure Log Analytics](https://drive.google.com/file/d/1YoKLJepEZv-j4wdso5ye0tGHJzuows3d/view?usp=drive_link)
 
 ### 5. Tích hợp Dịch vụ & Automation:
-https://drive.google.com/file/d/1okyrOvy8maqOUJrgn74J5v3a2nD-pXq9/view?usp=drive_link
-https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
-
-https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
-
-https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link
+* [▶️ Cấu hình Custom Domain](https://drive.google.com/file/d/1okyrOvy8maqOUJrgn74J5v3a2nD-pXq9/view?usp=drive_link)
+* [▶️ Cấu hình Microsoft 365 & Teams](https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link)
+* [▶️ Azure Service Bus](https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link)
+* [▶️ Azure Function App](https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link)
 
 ## 📸 TÀI LIỆU THAM KHẢO
 [TLTK_Group4.pdf](https://github.com/user-attachments/files/31402478/TLTK_Group4.pdf)
