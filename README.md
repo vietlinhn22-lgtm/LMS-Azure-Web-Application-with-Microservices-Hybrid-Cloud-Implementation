@@ -60,7 +60,7 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 ## 📸 DEMO Triển khai & Vận hành
 
 ### 1. Kiến trúc Lai & Định danh (Hybrid Identity):
-https://drive.google.com/file/d/1OZqZr0sfPMeQLRa-msmlLrOJWCxHXc5l/view?usp=drive_link
+[Cấu hình On-premise](https://drive.google.com/file/d/1OZqZr0sfPMeQLRa-msmlLrOJWCxHXc5l/view?usp=drive_link)
 https://drive.google.com/file/d/1JhRBV_zWhuhfs7sruMaO0XCIcNS68xqc/view?usp=drive_link
 https://drive.google.com/file/d/1nPfFf5_lpIp-bBrU45ef6H5-nQKUfLHq/view?usp=drive_link
 https://drive.google.com/file/d/1AhxS-0j70D5G-Rd6itvxzp5uMA4tRQ-K/view?usp=drive_link
