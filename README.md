@@ -80,7 +80,7 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 ### 5. Tích hợp Dịch vụ & Automation:
 * [▶️ Cấu hình Custom Domain](https://drive.google.com/file/d/1okyrOvy8maqOUJrgn74J5v3a2nD-pXq9/view?usp=drive_link)
 * [▶️ Cấu hình Microsoft 365 & Teams](https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link)
-* [▶️ Azure Service Bus](https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link)
+* [▶️ Azure Service Bus](https://drive.google.com/file/d/1m_W-EneYWTDTAvrSPszKnd15GdE0IuuO/view?usp=drive_link)
 * [▶️ Azure Function App](https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link)
 
 ## 📸 TÀI LIỆU THAM KHẢO
