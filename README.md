@@ -87,5 +87,5 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 * [▶️ Azure Function App](https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link)
 
 ## 📸 TÀI LIỆU THAM KHẢO
-[📖 Đọc trực tiếp: TÀI LIỆU THIẾT KẾ ĐỒ ÁN (TLTK_Group4.pdf)](./TLTK_Group4.pdf)
+[📖 Đọc trực tiếp: TÀI LIỆU THIẾT KẾ ĐỒ ÁN NHÓM 4](./TLTK_Group4.pdf)
 
