@@ -55,35 +55,33 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 
 ## 👨‍💻 Nhóm 4 (Tác giả)
 *   **Nguyễn Quang Huy** (JK-ENR-HA-11646) - Lãnh đạo Kỹ thuật & IaC/Compute.
-*   **Phạm Minh Hoàng** (JK-ENR-HA-11622) - Hybrid Cloud, Identity & Bảo mật.
-*   **Lê Phát Hoàng Phúc** (JK-ENR-HA-11621) - Database, Lưu Trữ & DR/HA.
 *   **Nguyễn Việt Linh** (JK-ENR-HA-11617) - Hybrid, Networking, Identity & Bảo mật Nâng cao.
-*   **Quách Thành Tân** (JK-ENR-HA-11618) - Giám Sát, Automation & Integration.
 
 ## 📸 DEMO Triển khai & Vận hành
 
-### 1. Triển khai Hạ tầng Mạng & Bảo mật với Terraform
-*(Liên kết video/tài liệu demo VNet, NSG, Firewall, Load Balancer)*
+### 1. Kiến trúc Lai & Định danh (Hybrid Identity):
+https://drive.google.com/file/d/1OZqZr0sfPMeQLRa-msmlLrOJWCxHXc5l/view?usp=drive_link
+https://drive.google.com/file/d/1JhRBV_zWhuhfs7sruMaO0XCIcNS68xqc/view?usp=drive_link
+https://drive.google.com/file/d/1nPfFf5_lpIp-bBrU45ef6H5-nQKUfLHq/view?usp=drive_link
+https://drive.google.com/file/d/1AhxS-0j70D5G-Rd6itvxzp5uMA4tRQ-K/view?usp=drive_link
 
-### 2. Tích hợp Hybrid Identity & SSO (On-premise to Entra ID)
-*(Liên kết video/tài liệu demo AD Connect, MFA, Conditional Access)*
+### 2. Tự động hóa Hạ tầng (IaC):
+https://drive.google.com/file/d/1JOkqXptZtbthLU3S70koUaqPnD5HnN5P/view?usp=drive_link
+https://drive.google.com/file/d/1MNBmyB9IjuC_W2KIy5-FBt2wAp59_g3U/view?usp=drive_link
 
-### 3. Khởi chạy Microservices Web App trên AKS & VMSS
-*(Liên kết video/tài liệu demo quá trình deploy Docker containers)*
+### 3. Mạng & Bảo mật (Networking & Security):
+https://drive.google.com/file/d/1aB-vDksp57wfDit_a1qYRrGWzgYikjk1/view?usp=drive_link
+https://drive.google.com/file/d/1gafP1bmujVLnQmoFFSveRi98keMX0U4C/view?usp=drive_link
 
-### 4. Kiểm thử Cân bằng tải & WAF Application Gateway
-*(Liên kết video/tài liệu demo thử tải và chặn request độc hại)*
+### 4. SOC & Giám sát Hệ thống (Monitoring):
+https://drive.google.com/file/d/1qBK0FUfqfiZ6iIMcPINQ3fk8tzfGc04y/view?usp=drive_link
+https://drive.google.com/file/d/1YoKLJepEZv-j4wdso5ye0tGHJzuows3d/view?usp=drive_link
 
-### 5. Diễn tập Phục hồi Thảm họa (Azure Site Recovery)
-*(Liên kết video/tài liệu demo khôi phục hệ thống từ bản sao lưu)*
-
-## 📸 REPORT Báo cáo Quản trị & Vận hành
-
-### 1. 📄 Báo cáo: Giám sát toàn diện Hệ thống Microservices với Azure Monitor
-*(Liên kết tài liệu)*
-
-### 2. 📄 Báo cáo: Ứng phó sự cố bảo mật & Phân tích Log với KQL
-*(Liên kết tài liệu)*
+### 5. Tích hợp Dịch vụ & Automation:
+https://drive.google.com/file/d/1okyrOvy8maqOUJrgn74J5v3a2nD-pXq9/view?usp=drive_link
+https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
+https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
+https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link
 
 ### 3. 📄 Báo cáo: Áp dụng Chính sách Quản trị (Azure Policy & Blueprint)
 *(Liên kết tài liệu)*
