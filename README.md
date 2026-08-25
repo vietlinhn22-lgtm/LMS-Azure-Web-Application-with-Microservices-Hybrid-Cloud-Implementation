@@ -56,6 +56,9 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 ## 👨‍💻 Nhóm 4 (Tác giả)
 *   **Nguyễn Quang Huy** (JK-ENR-HA-11646) - Lãnh đạo Kỹ thuật & IaC/Compute.
 *   **Nguyễn Việt Linh** (JK-ENR-HA-11617) - Hybrid, Networking, Identity & Bảo mật Nâng cao.
+*   **Phạm Minh Hoàng (JK-ENR-HA-11622) - Hybrid Cloud, Identity & Bảo mật
+*   **Lê Phát Hoàng Phúc (JK-ENR-HA-11621) - Database, Lưu Trữ & DR/HA
+*   **Quách Thành Tân (JK-ENR-HA-11618) - Giám Sát, Automation & Integration
 
 ## 📸 DEMO Triển khai & Vận hành
 
@@ -84,5 +87,5 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 * [▶️ Azure Function App](https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link)
 
 ## 📸 TÀI LIỆU THAM KHẢO
-[TLTK_Group4.pdf](https://github.com/user-attachments/files/31402478/TLTK_Group4.pdf)
+[📖 Đọc trực tiếp: TÀI LIỆU THIẾT KẾ ĐỒ ÁN (TLTK_Group4.pdf)](./TLTK_Group4.pdf)
 
