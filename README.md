@@ -62,12 +62,12 @@ Hạ tầng vận hành theo mô hình Điện toán đám mây Lai (Hybrid Clou
 ### 1. Kiến trúc Lai & Định danh (Hybrid Identity):
 * [▶️ Cấu hình On-premise](https://drive.google.com/file/d/1OZqZr0sfPMeQLRa-msmlLrOJWCxHXc5l/view)
 * [▶️ Cấu hình EntraID và Share Subcription](https://drive.google.com/file/d/1nPfFf5_lpIp-bBrU45ef6H5-nQKUfLHq/view)
-* [▶️ Cấu hình ADConnect cho On-premise](https://drive.google.com/file/d/1nPfff5_lpIp-bBrU45ef6H5-nQKUfLHq/view?usp=drive_link)
+* [▶️ Cấu hình ADConnect cho On-premise](https://drive.google.com/file/d/1JhRBV_zWhuhfs7sruMaO0XCIcNS68xqc/view)
 * [▶️ Cấu hình Azure Arc cho Window Server 2022](https://drive.google.com/file/d/1AhxS-0j70D5G-Rd6itvxzp5uMA4tRQ-K/view)
 
 ### 2. Tự động hóa Hạ tầng (IaC):
-* [▶️ Đẩy Web app on-premise bằng code Azure PowerShell](https://drive.google.com/file/d/1JOkqXptZtbthLU3S70koUaqPnD5HnN5P/view?usp=drive_link)
-* [▶️ Deploy Project with Terraform Code](https://drive.google.com/file/d/1MNBmyB9IjuC_W2KIy5-FBt2wAp59_g3U/view?usp=drive_link)
+* [▶️ Đẩy Web app on-premise bằng code Azure PowerShell](https://drive.google.com/file/d/1mIVi8JzkFhn2YHw7vHZLQ-S4GGInjH4y/view?usp=drive_link)
+* [▶️ Deploy Project with Terraform Code](https://drive.google.com/file/d/1MNBmyB9IjuC_W2KIy5-FBt2wAp59_g3U/view)
 
 ### 3. Mạng & Bảo mật (Networking & Security):
 * [▶️ Cấu hình VPN Point-to-Site](https://drive.google.com/file/d/1aB-vDksp57wfDit_a1qYRrGWzgYikjk1/view?usp=drive_link)
