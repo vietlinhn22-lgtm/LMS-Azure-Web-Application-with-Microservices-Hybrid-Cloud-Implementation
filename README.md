@@ -84,3 +84,7 @@ https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive
 https://drive.google.com/file/d/14J3PIaZchrglB7zj-0kMmu2mzlwEktTx/view?usp=drive_link
 
 https://drive.google.com/file/d/1O-MOwqccY-6TSM1LjW0e0Xr8bBhLzRCL/view?usp=drive_link
+
+## 📸 TÀI LIỆU THAM KHẢO
+[TLTK_Group4.pdf](https://github.com/user-attachments/files/31402478/TLTK_Group4.pdf)
+
